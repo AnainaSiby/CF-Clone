@@ -1,49 +1,49 @@
-*{
+* {
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
     line-height: 1.8;
 }
 
 /*navigationbar*/
-section nav div a.navlogo{
+section nav div a.navlogo {
     padding: 10px;
     margin-right: 35px;
-   
+
 }
 
-section nav div a.navoptions{
+section nav div a.navoptions {
     margin-right: 15px;
     color: white;
 }
 
-div a.navoptions:hover{
+div a.navoptions:hover {
     color: #0fb298;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: none;
 }
 
 /* section 1*/
 
-section div.firstsection{
+section div.firstsection {
     height: 680px;
     margin-top: 89px;
 }
 
-section div h1.maintexth{
-    color:#140342 ;
-    position: absolute; 
-    top:12%; 
+section div h1.maintexth {
+    color: #140342;
+    position: absolute;
+    top: 12%;
     left: 5%;
     line-height: 70px;
 
 }
 
-section div p.maintextp{
+section div p.maintextp {
     color: black;
-    position: absolute; 
-    top: 32%; 
+    position: absolute;
+    top: 32%;
     left: 5%;
     font-size: 25px;
     font-weight: 350;
@@ -51,18 +51,18 @@ section div p.maintextp{
     padding-top: 12px;
 }
 
-section div img.maintexti{
-    position: absolute; 
-    top:47%; 
+section div img.maintexti {
+    position: absolute;
+    top: 47%;
     left: 3%;
     width: 340px;
     padding-top: 15px;
 }
 
-section div a.maintextb1{
+section div a.maintextb1 {
     position: absolute;
-    left:6%; 
-    top:75%;
+    left: 6%;
+    top: 75%;
     padding: 10px 35px;
     font-weight: bold;
     font-size: 17px;
@@ -70,9 +70,9 @@ section div a.maintextb1{
     color: white;
 }
 
-section div a.maintextb2{
-    position: absolute; 
-    top:75%;
+section div a.maintextb2 {
+    position: absolute;
+    top: 75%;
     left: 19%;
     padding: 10px 40px;
     font-weight: bold;
@@ -81,113 +81,115 @@ section div a.maintextb2{
     color: white;
 }
 
-section div a.maintextb1:hover{
+section div a.maintextb1:hover {
     background-color: #0fd4b3;
     color: white;
 }
 
-section div a.maintextb1:focus{
+section div a.maintextb1:focus {
     box-shadow: none;
 }
 
-section div a.maintextb2:hover{
+section div a.maintextb2:hover {
     background-color: #2d38a8;
     color: white;
 }
 
-section div a.maintextb2:focus{
+section div a.maintextb2:focus {
     box-shadow: none;
 }
 
-.carousel-indicators.s1{
+.carousel-indicators.s1 {
     border-radius: 9px;
     width: 82px;
     margin: 1% 47%;
     padding: 7px;
-    background-color:#2e3589;
+    background-color: #2e3589;
 
 }
 
-.carousel-indicators.s1 .active{
+.carousel-indicators.s1 .active {
     background-color: white !important;
 }
 
-.cbtn:hover{
+.cbtn:hover {
     background-color: white !important;
 }
 
 /* section 2*/
 
-section div.second{
+section div.second {
     margin-top: 110px;
 }
 
-section div.second1{
+section div.second1 {
     padding-left: 10px;
 }
-section div.second1 iframe{
-   border: 6px solid #2e3589;
-   width: 610px;
-   height: 350px;
-   border-radius: 18px;
+
+section div.second1 iframe {
+    border: 6px solid #2e3589;
+    width: 610px;
+    height: 350px;
+    border-radius: 18px;
 }
 
-section div.second2{
-   font-weight: 400;
-   padding-left: 30px;
+section div.second2 {
+    font-weight: 400;
+    padding-left: 30px;
 }
 
-.second2 p{
-   text-align: justify;
-   font-size:15px;
+.second2 p {
+    text-align: justify;
+    font-size: 15px;
 }
 
-.second2 a{
+.second2 a {
     margin-top: 27px;
     padding: 16px 50px;
     border-radius: 8px;
     font-weight: 500;
 }
 
-.btn1{
-    background-color:#2e3589; /*same button used in section 3*/
+.btn1 {
+    background-color: #2e3589;
+    /*same button used in section 3*/
     color: white;
     border: 2px solid #2e3589;
 }
 
-.btn1:hover{
+.btn1:hover {
     background-color: white;
-    color: #0fb298   ;
-    border: 2px solid #0fb298 ;
+    color: #0fb298;
+    border: 2px solid #0fb298;
 }
 
-.btn1:focus{
+.btn1:focus {
     box-shadow: none;
 }
 
-.second2 a.btn2{
+.second2 a.btn2 {
     color: #2e3589;
     border: 2px solid #2e3589;
 }
 
-.second2 a.btn2:hover{
-    background-color:#2e3589;
+.second2 a.btn2:hover {
+    background-color: #2e3589;
     color: white;
     border: 2px solid #2e3589;
 }
 
-.btn2:focus{
+.btn2:focus {
     box-shadow: none;
 }
 
 
 /*section 3*/
 
-section div.third{
+section div.third {
     margin-top: 80px;
 }
 
-.third div.col-lg-4 div{
+.third div.col-lg-4 div {
     border: 2px solid #2e3589;
     height: 100%;
     margin: 0 4px;
@@ -195,159 +197,167 @@ section div.third{
     padding-top: 28px;
 }
 
-.col-lg-4 div img{
+.col-lg-4 div img {
     height: 105px;
     width: 70%;
 }
 
-.col-lg-4 div h5{
+.col-lg-4 div h5 {
     font-weight: 630;
     color: #140342;
     text-align: center;
     padding: 15px 0;
 }
 
-.col-lg-4 div p{
+.col-lg-4 div p {
     text-align: justify;
-    font-size:15px;
+    font-size: 15px;
     padding: 0 18px;
 }
 
-.col-lg-4 div button{
-    margin:10px 0 27px 100px;
+.col-lg-4 div button {
+    margin: 10px 0 27px 100px;
     padding: 16px 50px;
     border-radius: 8px;
     font-weight: 500;
 }
 
-.col-lg-4 div button:focus{
+.col-lg-4 div button:focus {
     box-shadow: none;
 }
 
 /*section 4*/
 
-.custom-head{
+.custom-head {
     color: #140342;
     text-align: center;
     font-weight: bold;
-} /*same used in section 6,7*/
+}
 
-.custom-para{
+/*same used in section 6,7*/
+
+.custom-para {
     color: #2e3589;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-}/*same used in section 6,7*/
+}
 
-hr.hor-line{
-height: 6px;
-background-image: linear-gradient(to right,#2e3589 50%,#0fb298 50%);
-border-radius: 10px;
-width: 27%;
-margin-left: 460px;
-}/*same used in section 6,7*/
+/*same used in section 6,7*/
 
-.carousel-indicators.s4{
+hr.hor-line {
+    height: 6px;
+    background-image: linear-gradient(to right, #2e3589 50%, #0fb298 50%);
+    border-radius: 10px;
+    width: 27%;
+    margin-left: 460px;
+}
+
+/*same used in section 6,7*/
+
+.carousel-indicators.s4 {
     margin: 0 47% 13px 46%;
 
 }
 
-div.s4-courses{
+div.s4-courses {
     margin-top: 95px;
     padding-top: 108px;
     padding-bottom: 100px;
 }
 
-.s4-carousel{
+.s4-carousel {
     padding: 90px 4px 80px 6px;
 }
 
-.s4-col{
+.s4-col {
     border-radius: 10px;
     border: 1px solid #f6f5f6;
 }
 
-.carousel-indicators.s4 .active{
+.carousel-indicators.s4 .active {
     background-color: rgb(0, 0, 0) !important;
 }
 
 /*section 5*/
 
-.s5{
+.s5 {
     background-color: #2e3589;
     padding-top: 110px;
     padding-bottom: 110px;
 }
 
-.featured-courses{
-    text-align:left;
+.featured-courses {
+    text-align: left;
     margin-top: 70px;
     color: #ffffff;
 }
 
-.featured-courses h3{
+.featured-courses h3 {
     padding-left: 5px;
     font-weight: bold;
 }
 
-.featured-courses p{
+.featured-courses p {
     margin-left: 0;
-    padding:5px !important;
+    padding: 5px !important;
 }
 
-.featured-courses a{
-   background-color:#0fb298;
-   margin-left: 5px;
-   color: #ffffff;
-   padding: 12px 30px;
-   border-radius: 10px;
-   font-weight: 500;
+.featured-courses a {
+    background-color: #0fb298;
+    margin-left: 5px;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 500;
 }
 
-.featured-courses a:hover{
-    background-color:#ffffff;
-    color:#2e3589;
- }
+.featured-courses a:hover {
+    background-color: #ffffff;
+    color: #2e3589;
+}
 
-.s5 .col-lg-6 div.col-div{
+.s5 .col-lg-6 div.col-div {
     background-color: white;
     padding-bottom: 50px;
     margin: 20px 10px;
     border-radius: 0 60px 0 60px;
 }
-.s5 .col-lg-6 div.image-div{
+
+.s5 .col-lg-6 div.image-div {
     margin: 0 135px;
     padding-top: 20px;
     padding-bottom: 30px;
 
 }
 
-.s5 .col-lg-6 div.details-div{
+.s5 .col-lg-6 div.details-div {
     text-align: center;
     text-transform: uppercase;
 }
 
-.s5 .col-lg-6 div.details-div h5{
-margin-bottom: 15px;
-font-weight: bold;
+.s5 .col-lg-6 div.details-div h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
-.s5 .col-lg-6 div.details-div p{
-   margin-bottom: 0;
-   margin-top: 0;
-   padding: 0;
+.s5 .col-lg-6 div.details-div p {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
 }
-.s5 .col-lg-6 div.details-div p span{
+
+.s5 .col-lg-6 div.details-div p span {
     color: #2e3589;
     font-weight: bold;
-    }
+}
 
 /*section 6*/
-.s6{
+.s6 {
     margin-top: 80px;
 }
 
-.custom-col{
+.custom-col {
     display: grid;
     justify-items: center;
     border: 2px solid #2e3589;
@@ -357,35 +367,36 @@ font-weight: bold;
     padding-top: 30px;
 }
 
-.custom-col h6{
+.custom-col h6 {
     margin-top: 20px;
     color: #140342;
     font-weight: 600;
     font-size: 17px;
 }
 
-.custom-col p{
+.custom-col p {
     font-size: 14px;
-    color:#51567d;
+    color: #51567d;
     margin: 10px 10px 20px;
     text-align: center;
     font-size: 15px;
 }
 
-.custom-col:hover{
+.custom-col:hover {
     border: 2px solid #0fb298;
 }
 
 /*section 7*/
 
-.s7{
+.s7 {
     margin-top: 110px;
+    margin-bottom: 110px;
 }
 
-.insta-btn1{
-    font-size:12px;
+.insta-btn1 {
+    font-size: 12px;
     font-weight: bold;
-    padding:5px 10px;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     background-color: #2e3589;
@@ -393,168 +404,168 @@ font-weight: bold;
     margin-right: 3px;
 }
 
-.insta-btn2{
+.insta-btn2 {
     background-color: #cd486b;
-    font-size:12px;
+    font-size: 12px;
     font-weight: bold;
-    padding:7px 14px;
+    padding: 7px 14px;
     border: none;
     border-radius: 5px;
     color: white;
 }
 
-.insta-btn1:hover{
-    background-color:#0fb298;
+.insta-btn1:hover {
+    background-color: #0fb298;
 }
 
-.insta-btn2:hover{
-    background-color:#c84107e0;
+.insta-btn2:hover {
+    background-color: #c84107e0;
     color: #ffffff;
 }
 
-/*section 8*/
 
 /*Footer*/
 
-.footer-image{
+.footer-image {
     margin-top: 210px;
     margin-bottom: 168px;
 
 }
 
-.footer-image h1{
-  text-align: center;
-  font-weight: 900;
+.footer-image h1 {
+    text-align: center;
+    font-weight: 900;
 }
 
-.footer-image p{
+.footer-image p {
     text-align: center;
     font-weight: 500;
     margin-top: 20px;
-  }
+}
 
-  .footer-image a{
+.footer-image a {
     font-weight: 500;
     margin-top: 20px;
     border-width: 2px;
     border-radius: 10px;
     padding: 16px 50px;
-  }
+}
 
-  .footer-image a:hover{
-    background-color:#2e3589;
+.footer-image a:hover {
+    background-color: #2e3589;
     border-color: #2e3589;
     color: rgb(255, 255, 255);
-  }
+}
 
-  .footer-image a.btn:focus{
+.footer-image a.btn:focus {
     box-shadow: none;
-  }
+}
 
-  .footer-s2{
+.footer-s2 {
     background-color: #140342;
     padding-top: 65px;
     padding-bottom: 10px;
-  }
+}
 
-  .footer-s2 .col-lg-4 a img{
+.footer-s2 .col-lg-4 a img {
     margin-bottom: 30px;
-  }
+}
 
-  .footer-s2 .col-lg-4 p{
+.footer-s2 .col-lg-4 p {
     margin-bottom: 30px;
     text-align: justify;
-  }
+}
 
-  .footer-s2 a.social-m{
+.footer-s2 a.social-m {
     border-radius: 50%;
     margin-right: 10px;
-  }
+}
 
-  .footer-s2 a.social-m:hover{
-    background-color:#272f63;
-  }
+.footer-s2 a.social-m:hover {
+    background-color: #272f63;
+}
 
- .footer-s2 .col-lg-3 ul li a{
+.footer-s2 .col-lg-3 ul li a {
     color: #ffffff;
- }
+}
 
- .footer-s2 .col-lg-3 ul li{
-   list-style-type: none;
-   border: none;
- }
+.footer-s2 .col-lg-3 ul li {
+    list-style-type: none;
+    border: none;
+}
 
- .footer-s2 .col-lg-3 ul li a i{
+.footer-s2 .col-lg-3 ul li a i {
     color: #0fb298;
     margin-right: 20px;
- }
-  
- .footer-s2 .col-lg-3 ul li a.btn{
+}
+
+.footer-s2 .col-lg-3 ul li a.btn {
     border: none;
     padding-top: 2px;
     padding-bottom: 2px;
- }
+}
 
- .footer-s2 h4{
+.footer-s2 h4 {
     text-transform: uppercase;
     margin-left: 40px;
     padding-top: 20px;
- }
+}
 
- .footer-s2 hr{
+.footer-s2 hr {
     height: 2px;
     width: 25%;
-    color:#0fb298;
+    color: #0fb298;
     margin-left: 45px;
     margin-bottom: 25px;
- }
+}
 
- .footer-s2 .col-lg-5 ul li{
+.footer-s2 .col-lg-5 ul li {
     list-style-type: none;
     border: none;
     padding-bottom: 10px;
-  }
+}
 
-  .footer-s2 .col-lg-5 ul li i{
+.footer-s2 .col-lg-5 ul li i {
     color: #0fb298;
     margin-right: 20px;
     margin-left: 5px;
-  }
+}
 
-  .footer-s3{
+.footer-s3 {
     background-color: #140342;
-  }
+}
 
-  .footer-s3 hr{
+.footer-s3 hr {
     height: 1px;
     width: 97%;
     padding: 0;
     margin-left: 20px;
     color: #666c91;
-  }
+}
 
-  .footer-s3 a.btn{
+.footer-s3 a.btn {
     color: #ffffff;
     font-size: 15px;
-  }
+}
 
-  .footer-s3 a.btn:hover{
+.footer-s3 a.btn:hover {
     color: #0fb298;
-  }
+}
 
-  .footer-s3 i{
+.footer-s3 i {
     color: #ffffff;
     margin-right: 8px;
-  }
+}
 
-  .footer-s3 p{
+.footer-s3 p {
     font-size: 13px;
-  }
-  .footer-s3 a{
+}
+
+.footer-s3 a {
     color: #ffffff;
     text-decoration: none;
-  }
+}
 
-  .btn:focus{
-        box-shadow: none;
-  }
+.btn:focus {
+    box-shadow: none;
+}
